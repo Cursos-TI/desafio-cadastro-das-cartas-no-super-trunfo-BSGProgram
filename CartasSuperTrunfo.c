@@ -18,7 +18,30 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf(" Super Trunfo Paises - Cadastro de cartas\n")
+    printf("Super Trunfo Paises\n");
+
+    char estado1[20], estado2[20]; //string
+    char codigo1[10], codigo2[20]; //string
+    char cidade1[10], cidade2[10];
+    int população1, população2, numero1, numero2;
+    float area1, area2, pib1, pib2;
+
+    
+
+
+
+    
+
+    printf(" Cadastro de carta 01\n");
+
+
+    
+
+    
+
+    
+
+
 
     return 0;
 }
