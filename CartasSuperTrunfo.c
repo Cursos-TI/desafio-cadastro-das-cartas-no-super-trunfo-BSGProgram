@@ -18,15 +18,38 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("Super Trunfo Paises\n");
+    printf("Super Trunfo Paises\n"); //Cabeçalho do Jogo
+
+    // Variaveis e tipos de dados
 
     char estado1[20], estado2[20]; //string
     char codigo1[10], codigo2[20]; //string
-    char cidade1[10], cidade2[10];
-    int população1, população2, numero1, numero2;
+    char cidade1[10], cidade2[10]; //string
+    int populacao1, populacao2, numero1, numero2;
     float area1, area2, pib1, pib2;
 
+    printf("n\n\Cadastro Carta 01\n\n");
+
+    printf("Digite o estado: \n")
+    scanf("%s", estado1);
+
+    printf("Digite o código da cidade: \n");
+    scanf("%s", codigo1);
+
+    printf("Digite a cidade: \n")
+    scanf("%s", cidade1);
+
+    printf("Digite a população da cidade: \n")
+    scanf("%d", &populacao1);
+
+    printf("Digite a quantidade de Pontos Turísticos: \n");
+    scanf("%d", &numero1);
     
+
+
+
+
+
 
 
 
