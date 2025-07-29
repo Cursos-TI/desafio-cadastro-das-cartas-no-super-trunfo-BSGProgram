@@ -18,7 +18,7 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("Super Trunfo Paises\n"); //Cabeçalho do Jogo
+    printf("Super Trunfo Paises"); //Cabeçalho do Jogo
 
     // Variaveis e tipos de dados
 
@@ -28,7 +28,7 @@ int main() {
     int populacao1, populacao2, numero1, numero2;
     float area1, area2, pib1, pib2;
 
-    printf("n\n\Cadastro Carta 01\n");
+    printf("\n\nCadastro Carta 01\n\n");
 
     printf("Digite o estado:");
     scanf("%s", estado1);
@@ -82,6 +82,7 @@ int main() {
     scanf("%f", &area2);
 
     printf("Digite o PIB da cidade: \n\n");
+    scanf("%f", &pib2);
 
     printf("Dados da Carta 02\n\n");
 
