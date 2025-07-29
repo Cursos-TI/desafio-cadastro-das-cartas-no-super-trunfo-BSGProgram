@@ -28,42 +28,70 @@ int main() {
     int populacao1, populacao2, numero1, numero2;
     float area1, area2, pib1, pib2;
 
-    printf("n\n\Cadastro Carta 01\n\n");
+    printf("n\n\Cadastro Carta 01\n");
 
-    printf("Digite o estado: \n")
+    printf("Digite o estado: \n");
     scanf("%s", estado1);
 
     printf("Digite o código da cidade: \n");
     scanf("%s", codigo1);
 
-    printf("Digite a cidade: \n")
+    printf("Digite a cidade: \n");
     scanf("%s", cidade1);
 
-    printf("Digite a população da cidade: \n")
+    printf("Digite a população da cidade: \n");
     scanf("%d", &populacao1);
 
     printf("Digite a quantidade de Pontos Turísticos: \n");
     scanf("%d", &numero1);
-    
 
+    printf("Digite a área da cidade: \n");
+    scanf("%f", &area1);
 
+    printf("Digite o PIB da cidade: \n\n");
+    scanf("%f", &pib1);
 
+    printf("Dados da Carta 01\n\n");
 
+    printf("O estado escolhido foi %s\n",estado1);
+    printf("O Código da cidade é %s\n", codigo1);
+    printf("A cidade escolhida foi %s\n", cidade1);
+    printf("A Cidade %s possui %d habitantes\n", cidade1, populacao1);
+    printf("a cidade %s, possui %d pontos turisticos\n", cidade1, numero1);
+    printf("A Área de %s em km é %f\n", cidade1, area1);
+    printf("O PIB da cidade %s é %f\n\n", cidade1, pib1);
 
+    printf("Cadastro Carta 02\n\n");
 
+    printf("Digite o Estado: \n");
+    scanf("%s", estado2);
 
+    printf("Digite o código: \n");
+    scanf("%s", codigo2);
 
-    
+    printf("Digite a cidade: \n");
+    scanf("%s", cidade2);
 
-    printf(" Cadastro de carta 01\n");
+    printf("Digite a população: \n");
+    scanf("%d", &populacao2);
 
+    printf("Digite a quantidade de Pontos Turíticos: \n");
+    scanf("%d", &numero2);
 
-    
+    printf("Digite a Área da cidade: \n");
+    scanf("%f", &area2);
 
-    
+    printf("Digite o PIB da cidade: \n\n");
 
-    
+    printf("Dados da Carta 02\n\n");
 
+    printf("O estado escolhido foi %s\n",estado2);
+    printf("O Código da cidade é %s\n", codigo2);
+    printf("A cidade escolhida foi %s\n", cidade2);
+    printf("A Cidade %s possui %d habitantes\n", cidade2, populacao2);
+    printf("a cidade %s, possui %d pontos turisticos\n", cidade2, numero2);
+    printf("A Área de %s em km é %f\n", cidade2, area2);
+    printf("O PIB da cidade %s é %f\n\n", cidade2, pib2);
 
 
     return 0;
