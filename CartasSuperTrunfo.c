@@ -30,22 +30,22 @@ int main() {
 
     printf("n\n\Cadastro Carta 01\n");
 
-    printf("Digite o estado: \n");
+    printf("Digite o estado:");
     scanf("%s", estado1);
 
-    printf("Digite o código da cidade: \n");
+    printf("Digite o código da cidade:");
     scanf("%s", codigo1);
 
-    printf("Digite a cidade: \n");
+    printf("Digite a cidade:");
     scanf("%s", cidade1);
 
-    printf("Digite a população da cidade: \n");
+    printf("Digite a população da cidade:");
     scanf("%d", &populacao1);
 
-    printf("Digite a quantidade de Pontos Turísticos: \n");
+    printf("Digite a quantidade de Pontos Turísticos:");
     scanf("%d", &numero1);
 
-    printf("Digite a área da cidade: \n");
+    printf("Digite a área da cidade:");
     scanf("%f", &area1);
 
     printf("Digite o PIB da cidade: \n\n");
@@ -63,22 +63,22 @@ int main() {
 
     printf("Cadastro Carta 02\n\n");
 
-    printf("Digite o Estado: \n");
+    printf("Digite o Estado:");
     scanf("%s", estado2);
 
-    printf("Digite o código: \n");
+    printf("Digite o código:");
     scanf("%s", codigo2);
 
-    printf("Digite a cidade: \n");
+    printf("Digite a cidade:");
     scanf("%s", cidade2);
 
-    printf("Digite a população: \n");
+    printf("Digite a população:");
     scanf("%d", &populacao2);
 
-    printf("Digite a quantidade de Pontos Turíticos: \n");
+    printf("Digite a quantidade de Pontos Turíticos:");
     scanf("%d", &numero2);
 
-    printf("Digite a Área da cidade: \n");
+    printf("Digite a Área da cidade:");
     scanf("%f", &area2);
 
     printf("Digite o PIB da cidade: \n\n");
