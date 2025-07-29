@@ -28,6 +28,8 @@ int main() {
     int populacao1, populacao2, numero1, numero2;
     float area1, area2, pib1, pib2;
 
+    //CADASTRO CARTA 01
+
     printf("\n\nCadastro Carta 01\n\n");
 
     printf("Digite o estado:");
@@ -51,6 +53,8 @@ int main() {
     printf("Digite o PIB da cidade:");
     scanf("%f", &pib1);
 
+    //DADOS DA CARTA 01
+
     printf("Dados da Carta 01\n\n");
 
     printf("O estado escolhido foi %s\n",estado1);
@@ -60,6 +64,8 @@ int main() {
     printf("a cidade %s, possui %d pontos turisticos\n", cidade1, numero1);
     printf("A Área de %s em km é %f\n", cidade1, area1);
     printf("O PIB da cidade %s é %f\n\n", cidade1, pib1);
+
+    //CADASTRO DA CARTA 02
 
     printf("Cadastro Carta 02\n\n");
 
@@ -83,6 +89,8 @@ int main() {
 
     printf("Digite o PIB da cidade:");
     scanf("%f", &pib2);
+
+    //DADOS DA CARTA 02
 
     printf("Dados da Carta 02\n\n");
 
