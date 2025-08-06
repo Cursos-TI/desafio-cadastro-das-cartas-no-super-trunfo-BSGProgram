@@ -24,9 +24,11 @@ int main() {
 
     char estado1[20], estado2[20]; //string
     char codigo1[10], codigo2[20]; //string
-    char cidade1[10], cidade2[10]; //string
+    char cidade1[15], cidade2[15]; //string
     int populacao1, populacao2, numero1, numero2;
     float area1, area2, pib1, pib2;
+    float densidade1, densidade2;
+    float pibpercapita1, pibpercapita2;
 
     //CADASTRO CARTA 01
 
@@ -53,6 +55,9 @@ int main() {
     printf("Digite o PIB da cidade:");
     scanf("%f", &pib1);
 
+    densidade1 = populacao1 / area1; // Cálculo da densidade populacional
+    pibpercapita1 = pib1 / populacao1; // Calculo do Pib Percapito
+
     //DADOS DA CARTA 01
 
     printf("Dados da Carta 01\n\n");
@@ -63,7 +68,11 @@ int main() {
     printf("A Cidade %s possui %d habitantes\n", cidade1, populacao1);
     printf("a cidade %s, possui %d pontos turisticos\n", cidade1, numero1);
     printf("A Área de %s em km é %f\n", cidade1, area1);
-    printf("O PIB da cidade %s é %f\n\n", cidade1, pib1);
+    printf("O PIB de %s é %f\n", cidade1, pib1);
+    printf("A Densidade Populacional é %.2f\n", densidade1);
+    printf("O PIB Percapito é %.2f\n\n", pibpercapita1);
+
+
 
     //CADASTRO DA CARTA 02
 
@@ -90,6 +99,9 @@ int main() {
     printf("Digite o PIB da cidade:");
     scanf("%f", &pib2);
 
+    densidade2 = populacao2 / area2; // Cálculo da densidade populacional
+    pibpercapita2 = pib2 / populacao2; // Calculo do Pib Percapito
+
     //DADOS DA CARTA 02
 
     printf("Dados da Carta 02\n\n");
@@ -101,6 +113,8 @@ int main() {
     printf("a cidade %s, possui %d pontos turisticos\n", cidade2, numero2);
     printf("A Área de %s em km é %f\n", cidade2, area2);
     printf("O PIB da cidade %s é %f\n\n", cidade2, pib2);
+    printf("A Densidade Populacional é %.2f\n", densidade2);
+    printf("O PIB Percapito é %.2f\n\n", pibpercapita2);
 
 
     return 0;
