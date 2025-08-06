@@ -112,7 +112,7 @@ int main() {
     printf("A Cidade %s possui %d habitantes\n", cidade2, populacao2);
     printf("a cidade %s, possui %d pontos turisticos\n", cidade2, numero2);
     printf("A Área de %s em km é %f\n", cidade2, area2);
-    printf("O PIB da cidade %s é %f\n\n", cidade2, pib2);
+    printf("O PIB da cidade %s é %f\n", cidade2, pib2);
     printf("A Densidade Populacional é %.2f\n", densidade2);
     printf("O PIB Percapito é %.2f\n\n", pibpercapita2);
 
