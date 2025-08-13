@@ -114,7 +114,7 @@ int main() {
     densidade2 = populacao2 / area2; // Cálculo da densidade populacional
     pibpercapita2 = pib2 / populacao2; // Calculo do Pib Percapito
     inv_dens2 = 1/densidade2; // Cálculo de Inversão da densidade populacional
-    superpoder2 = (populacao2 + ponto2 + area2 + pib2) + 1/densidade2;
+    superpoder2 = (populacao2 + ponto2 + area2 + pib2) + 1/densidade2; //Soma para obter Super Poder
 
     //Outra forma de calcular o SUPERPODER
     //superpoder2 = populacao2 + ponto2 + area2 + pib2 + inv_dens2;
@@ -148,7 +148,7 @@ int main() {
     //Cabeçalho das comparações
     printf("COMPARAÇÃO DAS CARTAS\n\n");
 
-    //Impressão dod Comparativos
+    //Impressão dos Comparativos
     printf("População: (%d)\n", (int) cpopulacao);
     printf("Pontos Turísticos: (%d)\n", (int) cpontos);
     printf("PIB: (%d)\n", (int) cpib);
